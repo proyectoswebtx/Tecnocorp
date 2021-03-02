@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link href="https://file.myfontastic.com/ZWjAFFZVWzvoZzxmRuPhwj/icons.css" rel="stylesheet">
+</head>
+<body>
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <img src="" alt="" class="modal__img" id="modal__img">
+        </div>
+        <div class="modal__boton" id="modal__boton">X</div>
+    </div>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Desarrollo de Tecnología Corporativas</h1>
+            </div>
+            <div class="main-header__contacInfo  column column--50 ">
+                <p class="main-heade__contactOnfo__phone">
+                    <span class="icon-phone"> 809-657-1414</span>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span class="icon-map-marker">Calle Almirante #5/Santo Domingo Este/ Republica Dominicana.</span>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-bars" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menus__item"><a href="/" class="menu__link menu__link--select">Quines Somos</a></li>
+                <li class="menus__item"><a href="portafolio.html" class="menu__link">Nuestro Equipo</a></li>
+                <li class="menus__item"><a href="Galeria.html" class="menu__link">Servicios</a></li>
+                <li class="menus__item"><a href="contacto.html" class="menu__link">Contactos</a></li>
+            </ul>
+            <div class="social-icon ">
+                <a href="https://www.facebook.com/tecnocorp.dev" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="https://twitter.com/home"" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="https://mail.google.com/mail/u/1/?ogbl#inbox" class="social-icon__link"><span class="icon-envelope"></span></a>
+
+            </div>
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="./img/contacto.jpg" alt="" class="banner__img">
+        <div class="banner__content">Contactame y haremos magias</div>
+    </section>
+    <main class="main">
+    <section class="group__contact">
+        <h2 class="group__title">Contactenos</h2>
+        <div class="container container--flex">
+            <div class="contact-information column column--50">
+                <h3 class="column__title">Informacion del contacto</h3>
+                <p class="column__txt">
+                    Conseguimos no solo ayudar a que su empresa crezca fácilmente, sino también a dar una mayor auge en el mercado digital  a toda tu empresa envianos un mensaje.
+                </p>
+                <p class="column__txt"><span class="icon-phone">Telefono:809-657-1414</span></p>
+                <p class="column__txt"><span class="icon-phone">Telefono:809-297-7821</span></p>
+                <p class="column__txt"><span class="icon-map-marker">Calle Minerva Mirabal #5 Sto Dgo Este.</span></p>
+                <p class="column__txt"><span class="icon-envelope">Proyectoswebtx@gmail.com</span></p>
+                <div class="social-icon ">
+                    <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                    <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                    <a href="" class="social-icon__link"><span class="icon-envelope"></span></a>
+                </div>
+            </div>
+            <form action="" method="POST" class="formulario column column--50">
+                <label for="" class="formulario__label">Nombre:</label>
+                <input type="text" class="formulario__imput-txt" name="nombre">
+                <label for="" class="formulario__label">Correo:</label>
+                <input type="text" class="formulario__imput-txt" name="correo">
+                <label for="" class="formulario__label">Telefono:</label>
+                <input type="text" class="formulario__imput-txt" name="telefono">
+                <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea">Mensaje</textarea>
+                <input type="submit" class="btn formulario__btn">
+            </form>
+        </div>
+    </section>
+    </main>
+
+    <footer class="maint-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title"> porque visitarnos?</h2>
+                <p class="column__txt">Porque representamos una manera única de usar tus sentidos para desarrollar nuevas tecnologia en beneficios de los tuyos conservando las seguridad de empresa.</p>
+                     
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contactame </h2>
+              <p class="column__txt">Telefono:809-657-1414</p> 
+              <p class="column__txt">Calle Minerva Mirabal #5 Almirante Sto Dgo.</p>
+              <p class="column__txt">Proyectoswebtx@gmail.com</p> 
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Siguenos en nuestras redes sociales </h2>
+              <p class="column__txt"><a href="https://www.facebook.com/tecnocorp.dev" class="icon-facebook">Facebook</a></p>   
+              <p class="column__txt"><a href="https://twitter.com/home" class="icon-twitter">Twitter</a></p>
+              <p class="column__txt"><a href="https://www.youtube.com/channel/UCSKpbDbRvGa82GiCVAJ_i6g" class="icon-youtube-play">YouTobe</a></p>                                                                  
+            </div>
+            <p class="copy">© 2021 Tecnocorp-Dev || Todos los derechos reservado</p>
+        </div>
+    </footer>
+    <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+</html>

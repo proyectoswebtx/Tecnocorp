@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnocoprDev</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="contactar.css">
+    <link href="https://file.myfontastic.com/ZWjAFFZVWzvoZzxmRuPhwj/icons.css" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo"></h1>
+            </div>
+            <div class="main-header__contacInfo  column column--50 ">
+                <p class="main-heade__contactOnfo__phone">
+                    <span class="icon-phone"> 809-657-1414</span>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span class="icon-map-marker">Calle Almirante #5/Santo Domingo Este/ Republica Dominicana.</span>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-bars" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menus__item"><a href="/" class="menu__link menu__link--select">Quines Somos</a></li>
+                <li class="menus__item"><a href="portafolio.html" class="menu__link">Nuestro Equipo</a></li>
+                <li class="menus__item"><a href="Galeria.html" class="menu__link">Servicios</a></li>
+                <li class="menus__item"><a href="Galeria.html" class="menu__link">Contactos</a></li>
+               
+            </ul>
+            <div class="social-icon ">
+                <a href="https://www.facebook.com/tecnocorp.dev" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="https://twitter.com/home" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="https://mail.google.com/mail/u/1/?ogbl#inbox" class="social-icon__link"><span class="icon-envelope"></span></a>
+
+            </div>
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="./img/Fondo.jpg" alt="" class="banner__img">
+        <div class="banner__content">Desarrollo de tecnología corporativas<br><br>Tecnocorp-Dev</div>
+        <div class="banner__content"></div>
+    </section>
+    <main class="main">
+        <section class="group group--color">
+            <div class="container">
+                <h2 class="main__title">Proyectos Realizados</h2>
+                <p class="main__txt">Contamos con una serie de proyectos para tu empresa ,con soluciones estratégicas en las diferentes áreas, sin importar a que  se dediquen contamos con una inteligencia de negocio efectiva para impulsar tu negocio por todo lo alto.</p>
+            </div>
+        </section>
+        <section class="group main__about__description">
+            <div class="container container--flex">
+                <div class="column column--50">
+                    <img src="./img/certificaciones footer.png" alt="">
+                </div>
+                <div class="column column--50">
+                    <h3 class="column__title">Expertos en programacion y Diseño Wed</h3>
+                    <p class="column__txt">Somos especialista de desarrollo web, marketing digital, soporte técnico  y office 365, automatizamos procesos completos; nos encargamos de que tu empresa sea impulsada a traves de todos los medios digitales con expertos especializados.</p>
+                    
+                    <button name="open-button" i="open-button" onclick="openForm()" class="button"><span>Contactar</span></button>
+                    
+                    <div class="form-popup" id="myForm" style="display: none;">
+                        
+
+  
+	<div id="frm_contactar" style="display: block; font-family: sans-serif, cursive;">
+		
+
+			<div class="container2">
+  <form action="/action_page.php">
+    <label for="fname">Nombre(s)</label>
+    <input type="text" id="nombre" name="primernombre" placeholder="Tu nombre">
+
+    <label for="lname">Apellido(s)</label>
+    <input type="text" id="apellido" name="primernombre" placeholder="Tu apellido">
+
+    <label for="country">Correo electrónico</label>
+   <input type="text" id="correo" name="correoelectronico" placeholder="Tu correo">
+
+    <label for="subject">Asunto</label>
+    <textarea id="subject" name="asunto" placeholder="Escribe algo.." style="height:200px"></textarea>
+
+    <input type="submit" value="Enviar">
+      
+      
+    <button type="button" class="btn cancel" onclick="closeForm()">Cancelar</button>
+       
+  </form>
+  
+</div>
+				
+		
+		
+	</div>
+	
+	</div>
+	<script src="jquery-2.1.4.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="code.js"></script>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+								
+								
+								</div>
+                    
+                    
+                    
+                    
+                
+            </div>
+        </section>
+        <section class="group today-special">
+            <h2 class="group__title">Servicios que brindamos</h2>
+            <div class="container container--flex">
+                <div class="column column--50-25">
+                    <img src="./img/Microsoft-Office-365.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">Soporte offices 365</div>
+                    <div class="today-special__price"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfwHb4PZoNmFDF6W6e2sodgKvnusPB8KJ2nGthzVGOkyABONQ/viewform?usp=pp_url"> Pulsa aqui</a> </div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="./img/developer.png" alt="" class="today-special__img">
+                    <div class="today-special__title">Desarrollo Web</div>
+                    <div class="today-special__price"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfwHb4PZoNmFDF6W6e2sodgKvnusPB8KJ2nGthzVGOkyABONQ/viewform?usp=pp_url"> Pulsa aqui</a> </div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="./img/soporte.png" alt="" class="today-special__img">
+                    <div class="today-special__title">Soporte Tecnico</div>
+                    <div class="today-special__price"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfwHb4PZoNmFDF6W6e2sodgKvnusPB8KJ2nGthzVGOkyABONQ/viewform?usp=pp_url"> Pulsa aqui</a> </div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="./img/social-media-5187243_1280.png" alt="" class="today-special__img">
+                    <div class="today-special__title">Marketing Digital</div>
+                    <div class="today-special__price"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfwHb4PZoNmFDF6W6e2sodgKvnusPB8KJ2nGthzVGOkyABONQ/viewform?usp=pp_url"> Pulsa aqui</a> </div>
+                </div>
+            </div>
+        </section> 
+    </main>
+    <footer class="maint-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title"> porque visitarnos?</h2>
+                <p class="column__txt">Porque representamos una manera única de usar tus sentidos para desarrollar nuevas tecnologia en beneficios de los tuyos conservando las seguridad de empresa.</p>
+                     
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contactame </h2>
+              <p class="column__txt">Telefono:809-657-1414</p> 
+              <p class="column__txt">Calle Minerva Mirabal #5 Almirante Sto Dgo.</p>
+              <p class="column__txt">Proyectoswebtx@gmail.com</p> 
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Siguenos en nuestras redes sociales </h2>
+              <p class="column__txt"><a href="https://www.facebook.com/tecnocorp.dev" class="icon-facebook">Facebook</a></p>   
+              <p class="column__txt"><a href="https://twitter.com/home" class="icon-twitter">Twitter</a></p>
+              <p class="column__txt"><a href="https://www.youtube.com/channel/UCSKpbDbRvGa82GiCVAJ_i6g" class="icon-youtube-play">YouTobe</a></p>                                                                  
+            </div>
+            <p class="copy">© 2021 Tecnocorp-Dev || Todos los derechos reservado</p>
+        </div>
+    </footer>
+    <script src="./js/menu.js"></script>
+</body>
+</html>

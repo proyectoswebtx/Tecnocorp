@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="./css/galeria.css">
+    <link href="https://file.myfontastic.com/ZWjAFFZVWzvoZzxmRuPhwj/icons.css" rel="stylesheet">
+</head>
+<body>
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <img src="" alt="" class="modal__img" id="modal__img">
+        </div>
+        <div class="modal__boton" id="modal__boton">X</div>
+    </div>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Desarrollo de Tecnología Corporativas</h1>
+            </div>
+            <div class="main-header__contacInfo  column column--50 ">
+                <p class="main-heade__contactOnfo__phone">
+                    <span class="icon-phone"> 809-657-1414</span>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span class="icon-map-marker">Calle Almirante #5/Santo Domingo Este/ Republica Dominicana.</span>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-bars" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+              <li class="menus__item"><a href="/" class="menu__link menu__link--select">Quines Somos</a></li>
+              <li class="menus__item"><a href="portafolio.html" class="menu__link">Nuestro Equipo</a></li>
+              <li class="menus__item"><a href="Galeria.html" class="menu__link">Servicios</a></li>
+              <li class="menus__item"><a href="contacto.html" class="menu__link">Contactos</a></li>
+            </ul>
+            <div class="social-icon ">
+                <a href="https://www.facebook.com/tecnocorp.dev" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="https://twitter.com/home" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="https://mail.google.com/mail/u/1/?ogbl#inbox" class="social-icon__link"><span class="icon-envelope"></span></a>
+
+            </div>
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="./img/fondoGaleria.jpg" alt="" class="banner__img">
+        <div class="banner__content"></div>
+    </section>
+    <main class="main">
+        <div class="group gallery">
+            <h2 class="group__title">Nuestros Servicios</h2>
+        </div>
+        
+        
+       <!--Guia Interactiva-->       
+<div id="Guia" class="tabcontent">
+  
+    <div class="main">
+
+<h1>Escoge una Categoría</h1>
+<hr>
+
+        <div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Ver todo</button>
+  <button class="btn" onclick="filterSelection('program')">Programación</button>
+  <button class="btn" onclick="filterSelection('diseñoweb')">Diseño Web</button>
+  <button class="btn" onclick="filterSelection('diseñografico')">Diseño Grafico</button>
+  <button class="btn" onclick="filterSelection('365')">Office 365</button>
+  <button class="btn" onclick="filterSelection('baseDatos')">Base de datos</button>
+  <button class="btn" onclick="filterSelection('soporte')">Soporte Tecnico</button>
+  <button class="btn" onclick="filterSelection('Soportepla')">Plataformas</button>
+  <button class="btn" onclick="filterSelection('linux')">Linux</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+  <div class="column program">
+    <div class="content">
+      <img src="./img/galeria/cc.png" alt="program" style="width:100%">
+      <h4>C Sharp</h4>
+    </div>
+  </div>
+  <div class="column program">
+    <div class="content">
+      <img src="./img/galeria/JAVAPRO.png" alt="program" style="width:100%">
+      <h4>Java</h4>
+    </div>
+  </div>
+        
+         <div class="column 365">
+    <div class="content">
+      <img src="./img/galeria/excel.jpg" alt="365" style="width:100%">
+      <h4>EXCEL AVANZADO</h4>
+    </div>
+  </div>
+  <div class="column 365">
+    <div class="content">
+      <img src="./img/galeria/WORD.jpg" alt="365" style="width:100%">
+      <h4>WORD AVANZADO</h4>
+    </div>
+  </div>
+  <div class="column 365">
+    <div class="content">
+      <img src="./img/galeria/PowerPoint.png" alt="365" style="width:900px">
+      <h4>POWERPOINT AVANZADO</h4>
+    </div>
+  </div>
+  <div class="column 365">
+    <div class="content">
+      <img src="./img/galeria/logotipo-publisher.jpg" alt="365" style="width:85%">
+      <h4>PUBLISHER AVANZADO</h4>
+    </div>
+  </div>
+  <div class="column baseDatos">
+    <div class="content">
+      <img src="./img/galeria/mysql.png" alt="baseDatos" style="width:120%">
+      <h4>MYSQL</h4>
+    </div>
+  </div>
+  <div class="column baseDatos">
+    <div class="content">
+      <img src="./img/galeria/sql.png" alt="baseDatos" style="width:170px">
+      <h4>SQL SERVER</h4>
+    </div>
+  </div>
+  <div class="column diseñoweb">
+    <div class="content">
+      <img src="./img/galeria/boostrap.png" alt="diseñoweb" style="width:56%">
+      <h4>BOOSTRAP</h4>
+    </div>
+  </div>
+  <div class="column diseñoweb">
+    <div class="content">
+      <img src="./img/galeria/html.png" alt="diseñoweb" style="width:56%">
+      <h4>HTML5</h4>
+    </div>
+  </div>
+  <div class="column diseñoweb">
+    <div class="content">
+      <img src="./img/galeria/jqueri.jfif" alt="diseñoweb" style="width:50%">
+      <h4>JQUERY</h4>
+    </div>
+  </div>
+  
+  <div class="column diseñoweb">
+    <div class="content">
+      <img src="./img/galeria/sass.png" alt="diseñoweb" style="width:76%">
+      <h4>SASS</h4>
+    </div>
+  </div>
+  <div class="column diseñoweb">
+    <div class="content">
+      <img src="./img/galeria/cc3.png" alt="diseñoweb" style="width:90%">
+      <h4>CCS3</h4>
+    </div>
+  </div>
+  <div class="column diseñoweb">
+    <div class="content">
+      <img src="./img/galeria/java.jfif" alt="diseñoweb" style="width:90%">
+      <h4>JAVASCRIPS</h4>
+    </div>
+  </div>
+  <div class="column diseñoweb">
+    <div class="content">
+      <img src="./img/galeria/asp.jfif" alt="diseñoweb" style="width:100%">
+      <h4>ASP.NET</h4>
+    </div>
+  </div>
+  <div class="column diseñoweb">
+    <div class="content">
+      <img src="./img/galeria/responsive.png" alt="diseñoweb" style="width:75%">
+      <h4>RESPONSIVE</h4>
+    </div>
+  </div>
+  <div class="column soporte">
+    <div class="content">
+      <img src="./img/galeria/ccna.png" alt="soporte" style="width:56%">
+      <h4>CCNA</h4>
+    </div>
+  </div>
+  <div class="column soporte">
+    <div class="content">
+      <img src="./img/galeria/soporte.jfif" alt="soporte" style="width:80%">
+      <h4>SOPORTE</h4>
+    </div>
+  </div>
+  
+  <div class="column soporte">
+    <div class="content">
+      <img src="./img/galeria/azure.png" alt="soporte" style="width:100%">
+      <h4>AZURE</h4>
+    </div>
+  </div>
+  <div class="column soporte">
+    <div class="content">
+      <img src="./img/galeria/telecomunicacione.jfif" alt="soporte" style="width:740px">
+      <h4>TELECOMUNICACIONES</h4>
+    </div>
+  </div>
+  <div class="column linux">
+    <div class="content">
+      <img src="./img/galeria/linux.jpg" alt="linux" style="width:95%">
+      <h4>Linux</h4>
+    </div>
+  </div>
+  <div class="column diseñografico">
+    <div class="content">
+      <img src="./img/galeria/photosho.jpg" alt="diseñografico" style="width:86%">
+      <h4>PHOTOSHOP</h4>
+    </div>
+  </div>
+  <div class="column diseñografico">
+    <div class="content">
+      <img src="./img/galeria/ILUSTRADOR.png" alt="diseñografico" style="width:56%">
+      <h4>ILUSTRATOR</h4>
+    </div>
+  </div>
+  <div class="column diseñografico">
+    <div class="content">
+      <img src="./img/galeria/ADOBEXD.png" alt="diseñografico" style="width:56%">
+      <h4>ADOBE XD</h4>
+    </div>
+  </div>
+  <div class="column diseñografico">
+    <div class="content">
+      <img src="./img/galeria/FITMA.png" alt="diseñografico" style="width:160%">
+      <h4>FITMA</h4>
+    </div>
+  </div>
+  <div class="column Soportepla">
+    <div class="content">
+      <img src="./img/galeria/MEET.jpg" alt="Soportepla" style="width:73%">
+      <h4>Google Meet</h4>
+    </div>
+  </div>
+  <div class="column Soportepla">
+    <div class="content">
+      <img src="./img/galeria/TEAM.png" alt="Soportepla" style="width:55%">
+      <h4>Microsoft Team</h4>
+    </div>
+  </div>
+  <div class="column Soportepla">
+    <div class="content">
+      <img src="./img/galeria/Moodle.png" alt="Soportepla" style="width:100%">
+      <h4>Moodle</h4>
+    </div>
+  </div>
+  <div class="column Soportepla">
+    <div class="content">
+      <img src="./img/galeria/WEBEZ.jpg" alt="Soportepla" style="width:100%">
+      <h4>Cisco Webex</h4>
+    </div>
+  </div>
+  <div class="column Soportepla">
+    <div class="content">
+      <img src="./img/galeria/zoom.jpg" alt="Soportepla" style="width:100%">
+      <h4>ZOOM</h4>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+   
+    </div>
+    
+<div id="prorateo" class="tabcontent">
+
+</div>
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>   
+<script src="./js/menu.js"></script>
+  </body>
+</html>
