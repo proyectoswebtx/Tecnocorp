@@ -220,10 +220,14 @@ h1,h2,h3,h4,h5,h6{
     padding-top: 10px;
     padding-bottom: 20px;
 }
+.today-special__price{
+    text-align: center;
+}
 .today-special__price a {
     text-align: center ;
     color: rgba(71, 218, 255, 0.555);
     font-weight: bold;
+    text-align: center;
 }
 .today-special__price a:hover{
     cursor: pointer;
